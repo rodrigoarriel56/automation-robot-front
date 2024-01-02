@@ -18,11 +18,23 @@
     Java ou muitas outras linguagens de programação. Robot Framework possui um rico ecossistema,
     	composto por bibliotecas e ferramentas que são desenvolvidas como projetos separados.
 
-# INSTALAÇÃO
+##
+
+# INSTALAÇÃO PYTHON 
   O método de instalação recomendado é usar pip:	
 	```
 	pip install --upgrade robotframework-seleniumlibrary
 	```
 ##
 
-# CONFIGURAÇÃO
+# INSTALAÇÃO ROBOT
+  Robot Framework é implementado com Python, então você precisa ter o Python instalado.
+	Em máquinas Windows, certifique-se de adicionar Python ao PATH durante a instalação.
+
+  Instalar o Robot Framework com pip é simples:
+  ```
+	pip instalar robotframework
+	```
+##
+
+# INSTALAÇÃO ROBOT
