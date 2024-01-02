@@ -1,6 +1,8 @@
 # automation-robot-front
   Automação de testes de front-end para plataforma web com o framework Robot com Python
 
+##
+
 # INTRODUÇÃO
   Robot Framework é uma estrutura genérica de automação de código aberto. 
    Ele pode ser usado para automação de testes e automação de processos robóticos (RPA).
@@ -21,4 +23,6 @@
 	```
 	pip install --upgrade robotframework-seleniumlibrary
 	```
+##
 
+# CONFIGURAÇÃO
