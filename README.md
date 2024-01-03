@@ -37,4 +37,26 @@
 	```
 ##
 
-# INSTALAÇÃO ROBOT
+# INSTALAÇÃO ROBOTFRAMEWORK  
+  pip install robotframework (Para instalar o Robot)
+
+##
+
+# INSTALAÇÃO ROBOTFRAMEWORK-SELENIUM LIBRARY 
+  pip install robotframework-seleniumlibrary
+
+##
+
+# COMANDO DE EXECUÇÃO DE TODOS OS TESTES
+  robot -d ./log login_tests
+
+##
+
+# COMANDO DE EXECUÇÃO DE APENAS UM TESTE ESPECIFICO
+  Atenção, na execução de um caso de teste especifico, precisa levar em consideração com a geração do status report da execução
+    diretorio onde será armazenado as evidências e log's dos testes.
+
+  robot -t
+
+
+##
