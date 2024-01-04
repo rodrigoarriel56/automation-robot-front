@@ -25,7 +25,7 @@
 	```
 	pip install --upgrade robotframework-seleniumlibrary
 	```
-
+##
 # INSTALAÇÃO ROBOTFRAMEWORK
   Robot Framework é implementado com Python, então você precisa ter o Python instalado.
 	Em máquinas Windows, certifique-se de adicionar Python ao PATH durante a instalação.
