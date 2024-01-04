@@ -47,8 +47,8 @@
 # COMANDO DE EXECUÇÃO DE TODOS OS TESTES
   O comando de execução é:
   ```
-	robot -d ./log tests
-	```
+  robot -d ./log tests
+  ```
 ##
 
 # COMANDO DE EXECUÇÃO DE APENAS UM TESTE ESPECIFICO
@@ -56,23 +56,23 @@
     diretorio onde será armazenado as evidências e log's dos testes.
 
   O comando de execução é:
-    ```
-    robot -t //continuar com a criação deste comando
-    ```
+  ```
+  robot -t //continuar com a criação deste comando
+  ```
 ##  
 
 # COMANDO DE EXECUÇÃO DE TESTES NO BROWSER CHROME
   O comando de execução é:
-    ```
-    robot --variable BROWSER:Chrome tests
-    ```
+  ```
+  robot --variable BROWSER:Chrome tests
+  ```
 ##
 
 # COMANDO DE EXECUÇÃO DE TESTES NO BROWSER IE
   O comando de execução é:
-    ```
-    robot --variable BROWSER:IE tests
-    ```
+  ```
+  robot --variable BROWSER:IE tests
+  ```
 ##
   
 
