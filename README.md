@@ -34,14 +34,14 @@
   Instalar o Robot Framework com pip é simples:
   ```
   pip instalar robotframework
-	```
+  ```
 ##
 
 # INSTALAÇÃO ROBOTFRAMEWORK-SELENIUM LIBRARY
   O método de instalação das bibliotecas do selenium é usar pip:
   ```
-	pip install robotframework-seleniumlibrary
-	```
+  pip install robotframework-seleniumlibrary
+  ```
 ##
 
 # COMANDO DE EXECUÇÃO DE TODOS OS TESTES
