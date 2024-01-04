@@ -34,19 +34,19 @@
   ```
   pip instalar robotframework
 	```
-
+##
 # INSTALAÇÃO ROBOTFRAMEWORK-SELENIUM LIBRARY
   O método de instalação das bibliotecas do selenium é usar pip:
   ```
 	pip install robotframework-seleniumlibrary
 	```
-
+##
 # COMANDO DE EXECUÇÃO DE TODOS OS TESTES
   O comando de execução é:
   ```
 	robot -d ./log tests
 	```
-
+##
 # COMANDO DE EXECUÇÃO DE APENAS UM TESTE ESPECIFICO
   Atenção, na execução de um caso de teste especifico, precisa levar em consideração com a geração do status report da execução
     diretorio onde será armazenado as evidências e log's dos testes.
