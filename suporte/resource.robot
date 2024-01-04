@@ -7,11 +7,10 @@ Documentation     A resource file with reusable keywords and variables.
 Library           SeleniumLibrary
 
 *** Variables ***
-${SERVER}                www.google.com.br
-${SERVER_DEMOQA}         https://demoqa.com/automation-practice-form
+${SERVER_DEMOQA}         www.google.com.br
+${SERVER}                www.cea.com.br
 ${BROWSER_Firefox}       Firefox
 ${BROWSER_Chrome}        Chrome
-${BROWSER_IE}            IE
 ${DELAY}                 0
 ${VALID USER}            demo
 ${VALID PASSWORD}        mode
@@ -21,7 +20,7 @@ ${ERROR URL}             http://${SERVER}/error.html
 
 *** Keywords ***
 Open Browser To Login Page
-    Open Browser    ${LOGIN URL}    ${BROWSER}
+    Open Browser    ${LOGIN URL}    ${BROWSER_Chrome}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
     Login Page Should Be Open

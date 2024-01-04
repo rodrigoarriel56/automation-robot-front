@@ -38,8 +38,9 @@
 ##
 
 # INSTALAÇÃO ROBOTFRAMEWORK  
+  ```
   pip install robotframework (Para instalar o Robot)
-
+  ```
 ##
 
 # INSTALAÇÃO ROBOTFRAMEWORK-SELENIUM LIBRARY 
@@ -48,7 +49,7 @@
 ##
 
 # COMANDO DE EXECUÇÃO DE TODOS OS TESTES
-  robot -d ./log login_tests
+  robot -d ./log tests
 
 ##
 
@@ -61,12 +62,12 @@
 ##
 
 # COMANDO DE EXECUÇÃO DE TESTES NO BROWSER CHROME
-  robot --variable BROWSER:Chrome login_tests
+  robot --variable BROWSER:Chrome tests
 
 ##
 
 # COMANDO DE EXECUÇÃO DE TESTES NO BROWSER IE
-  robot --variable BROWSER:IE login_tests
+  robot --variable BROWSER:IE tests
 
 ##
 

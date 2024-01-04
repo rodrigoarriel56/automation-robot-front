@@ -1,20 +1,19 @@
-*** Documentation ***
+*** Settings ***
 Documentation     Classe criada para validar o preenchimento do site.
+...               
 ...               https://demoqa.com/automation-practice-form
 
-
-*** Settings ***
 Resource          ../suporte/resource.robot
 PageObjects       ../page_objects/page_tools_qa.robot
 Test Teardown     Close Browser
 
 *** Keywords ***
 Browser is opened to login page
-    Abrir BROWSER_Chrome
+    Abrir Browser
 
 *** Test Cases ***
 Valid Login
-    Dado que BROWSER_Chrome esteja aberto
+    Dado que browser esteja aberto
     E preencho campo primeiro nome
     E preencho campo segundo nome
     E preencho campo email

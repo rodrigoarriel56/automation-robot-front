@@ -6,18 +6,11 @@ Documentation     classe de componentes das paginas web.
 Library           SeleniumLibrary
 
 *** Variables ***
-${Fist_Name}            id:firstName
-${Last_Name}            id:lastName
-${Email}                id:userEmail
-${GeneroM}              id:gender-radio-1
-${GeneroF}              id:gender-radio-2
-${GeneroOther}          id:gender-radio-3
-${Mobile}               id:userNumber
-${date}                 id:dateOfBirthInput
-${subContainer}         id:subjectsContainer
-${hobbies-checkbox-1}   id:hobbies-checkbox-1
-${hobbies-checkbox-2}   id:hobbies-checkbox-2
-${hobbies-checkbox-3}   id:hobbies-checkbox-3
+${Fist_Name}            name:first_name
+${Last_Name}            name:last_name
+${Business}             name:business_name
+${Email}                name:email
+${Submit}               id:demo
 
 *** Keywords ***
 Open Browser To Login Page
