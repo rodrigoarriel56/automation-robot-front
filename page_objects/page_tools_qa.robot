@@ -1,23 +1,23 @@
 *** Settings ***
-Documentation     A resource file with reusable keywords and variables.
+Documentation     classe de componentes das paginas web.
 ...
 ...               The system specific keywords created here form our own
-...               domain specific language. They utilize keywords provided
-...               by the imported SeleniumLibrary.
+
 Library           SeleniumLibrary
 
 *** Variables ***
-${SERVER}                www.google.com.br
-${SERVER_DEMOQA}         https://demoqa.com/automation-practice-form
-${BROWSER_Firefox}       Firefox
-${BROWSER_Chrome}        Chrome
-${BROWSER_IE}            IE
-${DELAY}                 0
-${VALID USER}            demo
-${VALID PASSWORD}        mode
-${LOGIN URL}             http://${SERVER}/
-${WELCOME URL}           http://${SERVER}/welcome.html
-${ERROR URL}             http://${SERVER}/error.html
+${Fist_Name}            id:firstName
+${Last_Name}            id:lastName
+${Email}                id:userEmail
+${GeneroM}              id:gender-radio-1
+${GeneroF}              id:gender-radio-2
+${GeneroOther}          id:gender-radio-3
+${Mobile}               id:userNumber
+${date}                 id:dateOfBirthInput
+${subContainer}         id:subjectsContainer
+${hobbies-checkbox-1}   id:hobbies-checkbox-1
+${hobbies-checkbox-2}   id:hobbies-checkbox-2
+${hobbies-checkbox-3}   id:hobbies-checkbox-3
 
 *** Keywords ***
 Open Browser To Login Page

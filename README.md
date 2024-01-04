@@ -56,7 +56,18 @@
   Atenção, na execução de um caso de teste especifico, precisa levar em consideração com a geração do status report da execução
     diretorio onde será armazenado as evidências e log's dos testes.
 
-  robot -t
-
+  robot -t //continuar com a criação deste comando
 
 ##
+
+# COMANDO DE EXECUÇÃO DE TESTES NO BROWSER CHROME
+  robot --variable BROWSER:Chrome login_tests
+
+##
+
+# COMANDO DE EXECUÇÃO DE TESTES NO BROWSER IE
+  robot --variable BROWSER:IE login_tests
+
+##
+
+
