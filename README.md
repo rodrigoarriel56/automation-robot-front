@@ -26,37 +26,50 @@
 	pip install --upgrade robotframework-seleniumlibrary
 	```
 
-# INSTALAÇÃO ROBOT
+# INSTALAÇÃO ROBOTFRAMEWORK
   Robot Framework é implementado com Python, então você precisa ter o Python instalado.
 	Em máquinas Windows, certifique-se de adicionar Python ao PATH durante a instalação.
 
   Instalar o Robot Framework com pip é simples:
   ```
-	pip instalar robotframework
+  pip instalar robotframework
 	```
 
-# INSTALAÇÃO ROBOTFRAMEWORK  
+# INSTALAÇÃO ROBOTFRAMEWORK-SELENIUM LIBRARY
+  O método de instalação das bibliotecas do selenium é usar pip:
   ```
-  pip install robotframework (Para instalar o Robot)
-  ```
-
-# INSTALAÇÃO ROBOTFRAMEWORK-SELENIUM LIBRARY 
-  pip install robotframework-seleniumlibrary
-
+	pip install robotframework-seleniumlibrary
+	```
 
 # COMANDO DE EXECUÇÃO DE TODOS OS TESTES
-  robot -d ./log tests
+  O comando de execução é:
+  ```
+	robot -d ./log tests
+	```
 
 # COMANDO DE EXECUÇÃO DE APENAS UM TESTE ESPECIFICO
   Atenção, na execução de um caso de teste especifico, precisa levar em consideração com a geração do status report da execução
     diretorio onde será armazenado as evidências e log's dos testes.
 
-  robot -t //continuar com a criação deste comando
+  O comando de execução é:
+    ```
+    robot -t //continuar com a criação deste comando
+    ```
+  
 
 # COMANDO DE EXECUÇÃO DE TESTES NO BROWSER CHROME
-  robot --variable BROWSER:Chrome tests
+  O comando de execução é:
+    ```
+    robot --variable BROWSER:Chrome tests
+    ```
+  
 
 # COMANDO DE EXECUÇÃO DE TESTES NO BROWSER IE
-  robot --variable BROWSER:IE tests
+  O comando de execução é:
+    ```
+    robot --variable BROWSER:IE tests
+    ```
+  
+  
 
 
