@@ -27,8 +27,8 @@ def move_docs(ctx):
 
     These docs are visible http://robotframework.org/WebDemo/.
     """
-    log = Path('./log.html')
-    report = Path('./report.html')
+    log = Path('./log/log.html')
+    report = Path('./report/report.html')
     dest = Path('.') / 'docs'
     print(log.absolute())
     shutil.copy(log.absolute(), str(dest))

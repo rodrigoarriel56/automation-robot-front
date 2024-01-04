@@ -11,3 +11,6 @@ log.html
 report.html
 output.xml
 *.log
+
+# Diretorio que não deve ser comitado
+./log
