@@ -24,9 +24,10 @@
 ##
 
 # INSTALAÇÃO PYTHON 
-  O método de instalação recomendado é usar pip:	
+  O método de instalação recomendado para o Python é:
+  É fazer o donwload do site official do python e seguir as instruções de instalação
 	```
-	pip install --upgrade robotframework-seleniumlibrary
+	https://www.python.org/downloads/
 	```
 ##
 
